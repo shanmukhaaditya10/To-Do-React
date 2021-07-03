@@ -1,0 +1,48 @@
+.Input__button{
+  font-size: x-large;
+  background: rgb(229, 236, 227);
+  border: none;
+  color: rgb(27, 126, 27);
+  text-align: center;
+  height: 37px;
+  width: 34px;
+  padding: 1px;
+  margin-left: 1px;
+  align-items: center;
+  
+}
+
+button:hover{
+  cursor: pointer;
+  color: rgb(46, 148, 46);
+  background-color: aliceblue;
+  border: 1.7px solid rgb(90, 206, 90);
+}
+
+.container__input {
+  width:40%;
+  height: 4vh;
+  
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+input{
+  min-height: 30px;
+  font-size: 1.6rem;
+  font-family: 'STIX Two Math', serif;
+}
+@media(max-width:600px){
+  .container__input{
+    width: 85%;
+  }
+  .container{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .Input__button{
+    margin-left: 0%;
+  }
+}

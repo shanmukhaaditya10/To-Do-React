@@ -1,0 +1,34 @@
+
+body{
+ margin: 20px 20px 20px 180px; 
+ 
+
+ 
+ 
+}
+.App > h1,form {
+  text-align: center;
+  
+}
+.App{
+  border: 2px solid rgb(235, 178, 187);
+  background: wheat;
+  min-height: 90vh;
+  width: 80%;
+  
+
+}
+@media(max-width:600px){
+  .App{
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding-left: 0;
+    
+  }
+  body{
+    margin-left: 10px;
+  
+  background: wheat;
+  }
+}
